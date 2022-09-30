@@ -21,7 +21,6 @@ void PrintMassive(string[] array)
 {
     for(int i = 0; i < array.Length; i++)
     {
-        if(array[i] == "NULL") continue;
-        else System.Console.Write($"{array[i]}  ");
+        System.Console.Write($"{array[i]}  ");
     }
 }
